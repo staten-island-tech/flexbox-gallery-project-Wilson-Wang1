@@ -15,29 +15,28 @@ body,
 .contain {
   justify-content: space-around;
   border: 3px solid #ffffff;
+  border-radius: 2rem;
   text-align: center;
   background-color: #000000;
   color: #ffffff;
-  width: 60rem;
+  width: 33%;
   padding: 20px 20px;
   margin: 3.5rem auto;
-  box-shadow: 1em 1.5rem 1.5rem #ffffff;
+  box-shadow: 1em 1.5rem 1.5rem #ff0000;
 }
 .Row-1 {
   display: flex;
-  align-items: flex-start;
 }
 .Row-2 {
   display: flex;
-  align-items: flex-start;
 }
 .Row-3 {
   display: flex;
-  align-items: flex-start;
 }
 .subheadings {
   font-family: "Patrick Hand", cursive;
-  font-size: 3.5rem;
+  font-size: 3.25rem;
+  text-align: center;
 }
 .images {
   background-position: center;
@@ -46,10 +45,12 @@ body,
   height: 50vh;
   color: #ffffff;
   border: 0.4rem solid #000000;
+  align-items: center;
 }
 #image-1 {
   background-image: url(img/Kb1.png);
   background-repeat: no-repeat;
+  background-size: ;
 }
 #image-2 {
   background-image: url(img/Kb2.png);
