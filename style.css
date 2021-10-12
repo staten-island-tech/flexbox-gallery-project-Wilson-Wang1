@@ -1,0 +1,80 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.header {
+  font-size: 5rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+.contain {
+  justify-content: space-around;
+  border: 3px solid #ffffff;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  width: 60rem;
+  padding: 20px 20px;
+  margin: 3.5rem auto;
+  box-shadow: 1em 1.5rem 1.5rem #ffffff;
+}
+.Row-1 {
+  display: flex;
+}
+.Row-2 {
+  display: flex;
+}
+.Row-3 {
+  display: flex;
+}
+.subheadings {
+  font-size: 3.5rem;
+}
+.images {
+  background-position: center;
+  margin-top: 1rem;
+  background-size: 100%;
+  height: 50vh;
+  color: #ffffff;
+  border: 0.4rem solid #000000;
+}
+#image-1 {
+  background-image: url(img/Kb1.png);
+  background-repeat: no-repeat;
+}
+#image-2 {
+  background-image: url(img/Kb2.png);
+  background-repeat: no-repeat;
+}
+#image-3 {
+  background-image: url(img/Kb3.PNG);
+  background-repeat: no-repeat;
+}
+#image-4 {
+  background-image: url(img/Kb4.PNG);
+  background-repeat: no-repeat;
+}
+#image-5 {
+  background-image: url(img/gk61.PNG);
+  background-repeat: no-repeat;
+}
+#image-6 {
+  background-image: url(img/keychron\ q2.PNG);
+  background-repeat: no-repeat;
+}
+#image-7 {
+  background-image: url(img/hyp\ x\ alloy\ origin\ core.PNG);
+  background-repeat: no-repeat;
+}
+#image-8 {
+  background-image: url(img/Ducky\ One\ 2\ Mini\ Frozen\ Llama.PNG);
+  background-repeat: no-repeat;
+}
+#image-9 {
+  background-image: url(img/Leopold\ FC660C\ Blue\ &\ Grey.PNG);
+  background-repeat: no-repeat;
+}
