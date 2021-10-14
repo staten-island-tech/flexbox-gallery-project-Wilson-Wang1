@@ -19,7 +19,7 @@ body,
   text-align: center;
   background-color: #000000;
   color: #ffffff;
-  width: 33%;
+  width: 32%;
   padding: 20px 20px;
   margin: 3.5rem auto;
   box-shadow: 1em 1.5rem 1.5rem #ff0000;
@@ -40,17 +40,21 @@ body,
 }
 .images {
   background-position: center;
-  margin-top: 1rem;
+  object-fit: cover;
   background-size: 100%;
+  margin-top: 1rem;
   height: 50vh;
   color: #ffffff;
   border: 0.4rem solid #000000;
   align-items: center;
 }
+.description {
+  font-size: 2.5rem;
+  text-align: center;
+}
 #image-1 {
   background-image: url(img/Kb1.png);
   background-repeat: no-repeat;
-  background-size: ;
 }
 #image-2 {
   background-image: url(img/Kb2.png);
