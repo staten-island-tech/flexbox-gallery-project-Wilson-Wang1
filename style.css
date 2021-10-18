@@ -89,30 +89,26 @@ body,
   background-image: url(img/Leopold\ FC660C\ Blue\ &\ Grey.PNG);
   background-repeat: no-repeat;
 }
-#button1 {
+.button {
   font-size: 2rem;
+  font-family: ;
 }
-#button2 {
-  font-size: 2rem;
+#button1:hover {
+  transform: scale(1.5);
 }
-#button3 {
-  font-size: 2rem;
+#button2:hover {
+}
+#button3:hover {
 }
 #button4 {
-  font-size: 2rem;
 }
 #button5 {
-  font-size: 2rem;
 }
 #button6 {
-  font-size: 2rem;
 }
 #button7 {
-  font-size: 2rem;
 }
 #button8 {
-  font-size: 2rem;
 }
 #button9 {
-  font-size: 2rem;
 }
