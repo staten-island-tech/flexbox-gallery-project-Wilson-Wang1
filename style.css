@@ -1,7 +1,7 @@
 body {
   animation: fadein 10s;
   animation-duration: 10s;
-  background-color: cyan;
+  background-color: rgb(16, 221, 221);
 }
 @keyframes fadein {
   from {
@@ -42,6 +42,7 @@ body,
 }
 .Row-1 {
   display: flex;
+  align-items: flex-start;
 }
 .Row-2 {
   display: flex;
@@ -105,27 +106,26 @@ body,
   font-size: 2.5rem;
   font-family: "Patrick Hand", cursive;
   font-weight: bold;
-  background-color: beige;
+  background-color: rgb(70, 167, 74);
   border-radius: 1rem;
 }
 #button1:hover {
   transform: scale(1.25);
-  transition: margin-right 2s ease-in;
 }
 #button2:hover {
-  transform: scale(1.25);
+  transform: scale(0.75);
 }
 #button3:hover {
-  transform: scale(1.25);
+  transform: rotate(90deg);
 }
 #button4:hover {
-  transform: scale(1.25);
+  transform: rotate(270deg);
 }
 #button5:hover {
-  transform: scale(1.25);
+  transform: translateX(2rem);
 }
 #button6:hover {
-  transform: scale(1.25);
+  transform: translateY(2rem);
 }
 #button7:hover {
   transform: scale(1.25);
