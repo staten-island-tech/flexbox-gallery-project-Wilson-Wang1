@@ -97,30 +97,39 @@ body,
 
 #button1:hover {
   transform: scale(1.25);
+  transition-delay: 0.5s;
 }
 #button2:hover {
   transform: scale(0.75);
+  transition-delay: 0.5s;
 }
 #button3:hover {
   transform: rotate(90deg);
+  transition-delay: 0.5s;
 }
 #button4:hover {
   transform: rotate(270deg);
+  transition-delay: 0.5s;
 }
 #button5:hover {
   transform: translateX(2rem);
+  transition-delay: 0.5s;
 }
 #button6:hover {
   transform: translateY(2rem);
+  transition-delay: 0.5s;
 }
 #button7:hover {
   transform: scale(1.25);
+  transition-delay: 0.5s;
 }
 #button8:hover {
   transform: scale(1.25);
+  transition-delay: 0.5s;
 }
 #button9:hover {
   transform: scale(1.25);
+  transition-delay: 0.5s;
 }
 body {
   animation: fadein 10s;
