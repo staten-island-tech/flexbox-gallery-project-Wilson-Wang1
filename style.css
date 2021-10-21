@@ -141,18 +141,18 @@ body {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
   min-width: ;
   body {
     background-color: rgb(163, 83, 143);
   }
   .contain {
-    width: 49%;
-    height: 50%;
+    width: 60%;
+    height: 50rem;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   body {
     background-color: rgb(91, 91, 129);
   }
